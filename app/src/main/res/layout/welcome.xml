@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/btn_login"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="        Hello Everyone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.08"
+        android:textSize="36sp"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@android:color/black" />
+
+    <TextView
+        android:text="    Welcome to E-Learning MKIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="0.09"
+        android:textSize="24sp"
+        android:textColor="@color/btn_logut_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/wel"
+        android:id="@+id/imageView"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+
+        android:background="@color/btn_login_bg"
+        android:text="GO"
+        android:textColor="@color/colorPrimary"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:textStyle="normal|bold" />
+
+
+</LinearLayout>

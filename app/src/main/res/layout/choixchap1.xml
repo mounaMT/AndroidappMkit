@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bgg_login"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/button15"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text=" Choose your chapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.07"
+        android:textSize="36sp"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@android:color/black" />
+
+    <RadioButton
+        android:text="Chapter 1 : introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorControlActivated" />
+
+    <RadioButton
+        android:text="Chapter 2: Mobile network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent" />
+
+    <RadioButton
+        android:text="Chapter 3 : Bleutouth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent" />
+
+    <RadioButton
+        android:text="Chapter 4 : Wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent" />
+
+    <RadioButton
+        android:text="Chapter 5 : Quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+
+        android:background="@color/colorAccent"
+        android:text="GO"
+        android:textColor="@color/colorPrimary"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+
+        android:background="@color/colorAccent"
+        android:text="LOGOUT"
+        android:textColor="@color/colorPrimary"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

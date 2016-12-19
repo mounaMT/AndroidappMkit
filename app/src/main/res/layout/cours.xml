@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bgg_login">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/button15"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="24dp" />
+
+        <TextView
+            android:text="      Chapter 1 : How is android ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.09"
+            android:textSize="24sp"
+            android:textColor="@color/btn_logut_bg" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/namee"
+            android:layout_width="326dp"
+            android:layout_height="223dp"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="24dp"
+            android:text="ici l'affichage le contenu de chapitre" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:drawableLeft="@drawable/qzzzzzz"
+        android:layout_marginTop="25dip"
+        android:background="@color/colorAccent"
+        android:text="Quiz"
+        android:textColor="@color/colorPrimary"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="185dp"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/ret1"
+        android:layout_marginTop="25dip"
+        android:background="@color/colorAccent"
+        android:text="Return"
+        android:textColor="@color/colorPrimary"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>
